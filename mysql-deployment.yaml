@@ -24,8 +24,6 @@ spec:
     matchLabels:
       app: webapp-sql
       tier: backend
-  strategy:
-    type: Recreate
   template:
     metadata:
       labels:
