@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: webapp1
-        image: nishat792/chatbot
+        image: nishat792/chatbot-k8s
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
